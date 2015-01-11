@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="IonicProjectTemplatesExtension..db4db2f0-1df1-42d6-adfe-69beeb4c07c4" Version="1.0" Language="en-US" Publisher="Nereo Lopez" />
+    <DisplayName>Ionic Project Templates</DisplayName>
+    <Description xml:space="preserve">Ionic Ready project templates for Visual Studio</Description>
+    <MoreInfo>http://nereolopez.blogspot.com.es/2015/01/visual-studio-project-templates-for.html</MoreInfo>
+    <Icon>ionic-logo.png</Icon>
+    <PreviewImage>preview-image.PNG</PreviewImage>
+    <Tags>Ionic, IonicFramework, Apache Cordova, AngularJS, Angular</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="BlankProjectTemplate" d:TargetPath="BlankProjectTemplate\Ionic Blank Template.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="LoginProjectTemplate" d:TargetPath="LoginProjectTemplate\Ionic Login Template.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="SideMenuProjectTemplate" d:TargetPath="SideMenuProjectTemplate\Ionic SideMenu Template.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="SignupProjectTemplate" d:TargetPath="SignupProjectTemplate\Ionic Signup Template.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="TabProjectTemplate" d:TargetPath="TabProjectTemplate\Ionic Tab Template.zip" />
+  </Assets>
+</PackageManifest>
