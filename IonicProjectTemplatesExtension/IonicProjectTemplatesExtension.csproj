@@ -100,9 +100,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="BlankPageTemplate\Ionic Blank Page.zip" />
+    <None Include="LoginPageTemplate\Ionic Login Page.zip" />
+    <None Include="SideMenuPageTemplate\Ionic SideMenu Page.zip" />
+    <None Include="SignupPageTemplate\Ionic Signup Page.zip" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
+    <None Include="TabPageTemplate\Ionic Tab Page.zip" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

@@ -22,5 +22,10 @@
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="SideMenuProjectTemplate" d:TargetPath="SideMenuProjectTemplate\Ionic SideMenu Template.zip" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="SignupProjectTemplate" d:TargetPath="SignupProjectTemplate\Ionic Signup Template.zip" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="TabProjectTemplate" d:TargetPath="TabProjectTemplate\Ionic Tab Template.zip" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="BlankPageTemplate" d:TargetPath="BlankPageTemplate\Ionic Blank Page.zip" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="LoginPageTemplate" d:TargetPath="LoginPageTemplate\Ionic Login Page.zip" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="SideMenuPageTemplate" d:TargetPath="SideMenuPageTemplate\Ionic SideMenu Page.zip" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="SignupPageTemplate" d:TargetPath="SignupPageTemplate\Ionic Signup Page.zip" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="TabPageTemplate" d:TargetPath="TabPageTemplate\Ionic Tab Page.zip" />
   </Assets>
 </PackageManifest>
